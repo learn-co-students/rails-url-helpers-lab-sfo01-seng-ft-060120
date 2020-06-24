@@ -1,1 +1,4 @@
+<%student = @student%>
 <h1><%= @student.to_s %></h1>
+<h3><%= @status_statement%></h3>
+<h3><%= link_to("active_student", "/students/#{@student.id}/activate") %> </h3>
